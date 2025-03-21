@@ -39,10 +39,10 @@
 	}
 </script>
 
-<main class="container mx-auto content-center justify-center p-4">
+<main class="container mx-auto item-center justify-center p-4">
 	<h1 class="m-10 text-2xl text-primary">Study Planner</h1>
 
-	<form action="">
+	<form action="" class ="flex items-center space-x-2">
 		{#if err}
 			<p class="text-red-500">{err}</p>
 		{/if}
